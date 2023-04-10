@@ -103,11 +103,12 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   padding: 2em;
   color: #fff;
   height: 100%;
+
 }
 
 .wrapper {
@@ -117,6 +118,29 @@ body {
   justify-content: space-between;
   align-items: center;
   
+}
+
+header{
+    flex: display;
+    background-color: #545454;
+    padding: 10px 0;
+    font-size: 2em;
+    color: #40e0d0;
+    font-family: 'Great Vibes';
+    margin: 20px 0;
+}
+
+main {
+    flex: display;
+    background-color: #f08080;
+    padding: 10px 0;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0;
+    margin: 20px 0;
+    
 }
 
 .div-1, .div-2, .div-3 {
@@ -130,23 +154,43 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  
  
 }
 
 .div-1 {
     border-right: #545454 1px solid;
     padding-right: 1em;
+   
     
 }
 
 .div-2 {
     border-right: #545454 1px solid;
-    padding-right: 1em;
- 
+    padding-right: 1em;  
+}
+
+footer {
+    background: #545454;
+    margin: 20px 0;
+    padding: 5px 0;
 }
 .wrapper span {
-    font-family: 'Lora', sans-serif;
-    font-size: 1em;
+    font-family: 'Sedgwick Ave Display';
+    font-size: 1.4em;
+    color: aqua;
+}
+
+.fontawesome-icon{
+   font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+    margin-right: 50px;
 }
 
 
